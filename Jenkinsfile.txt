@@ -6,7 +6,7 @@ pipeline {
                 dir("C:/Users/SDKUSWONG/Desktop/Jenkins Beginner/Day2") {
                     /* execute commands in the scripts directory */
                 }
-            bat \"C:/Users/SDKUSWONG/Desktop/Jenkins Beginner/Day2/test.bat\"
+            bat """C:/Users/SDKUSWONG/Desktop/Jenkins Beginner/Day2/test.bat"""
             }
         }
         stage('Test') {
