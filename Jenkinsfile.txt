@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                dir('C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat') {
+                    /* execute commands in the scripts directory */
+                }
+            bat 'C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat'
+            }
+        }
+        stage('Test') {
+            steps {
+                dir('C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat') {
+                    /* execute commands in the scripts directory */
+                }
+                bat 'C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat'
+            }
+        }
+      stage('Package') {
+            steps {
+                dir('C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat') {
+                    /* execute commands in the scripts directory */
+                }
+                bat 'C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                dir('C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat') {
+                    /* execute commands in the scripts directory */
+                }
+                bat 'C:\Users\SDKUSWONG\Desktop\Jenkins Beginner\Day2\test.bat'
+            }
+        }
+    }
+}
